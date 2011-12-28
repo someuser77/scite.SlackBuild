@@ -3,9 +3,10 @@ README.Slackware
 SciTE.SlackBuild 
 
 The SciTE.SlackBuild is now also available from git: git://github.com/schiffsratte/scite.slackbuild.git
-In version 3.02 SciTE's GTK3 support has still improved, it will integrate into the Gnome3
-Desktop and will use Adwaita or any other GTK3 theme, if installed.
-It now saves files in the background and can print on GTK+ 3.
+
+In version 3.02 SciTE's GTK+3 support has still improved, it will integrate nicely into the Gnome3
+Desktop and use Adwaita or any other GTK+3 theme, if installed.
+It now saves files in the background and can print on GTK+3.
 Since 2.29 it always draws with Cairo on GTK+, gdk-pixbuf is no longer needed - compilation errors with GSB-Desktop installed at the same time are gone.
 The handling of the "properties" files has been changed again to avoid the replacement
 of existing settings. 
