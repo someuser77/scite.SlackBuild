@@ -1,10 +1,13 @@
 #!/bin/sh
 # Slackware build script for SciTE
 # Written by Iskar Enev <iskar.enev[@]gmail.com>
-# Some modifications for v2.27 by Jens Weber <jens@tuxane.com>
+# v2.27: Some modifications by Jens Weber <jens@tuxane.com>
+# v3.02: (jw) changed handling of the properties files to avoid to overwrite
+# the users settings.Thanks to Garry Iglesias.
+
 
 PRGNAM=scite
-VERSION=2.27
+VERSION=3.02
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
