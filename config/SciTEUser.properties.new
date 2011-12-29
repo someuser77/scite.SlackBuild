@@ -14,14 +14,14 @@ statusbar.visible=1
 pathbar.visible=1
 check.if.already.open=1
 
-tabsize=3
-indent.size=3
+tabsize=4
+indent.size=4
 
 autocompleteword.automatic=1
 
 # if you want to be able to edit Unicode files, uncomment this:
-#code.page=65001
-#LC_CTYPE=en_US.UTF-8
+code.page=65001
+LC_CTYPE=en_US.UTF-8
 
 if PLAT_GTK
 	font.base=font:!Bitstream Vera Sans Mono,size:12
@@ -42,3 +42,4 @@ font.js=$(font.comment)
 comment.block.hypertext=//~
 comment.block.sql=--~
 xml.auto.close.tags=1
+lexer.*.slackbuilds=shell

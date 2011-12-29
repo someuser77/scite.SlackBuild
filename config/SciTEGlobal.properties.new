@@ -63,8 +63,7 @@ indent.size=3
 autocompleteword.automatic=1
 
 if PLAT_GTK
-	font.base=font:!Bitstream Vera Sans Mono,size:12
-	# font.base=font:Arial,size:10
+	font.base=font:Arial,size:10
 	font.small=$(font.base)
 	font.comment=$(font.base)
 	font.code.comment.box=$(font.comment)
@@ -102,4 +101,3 @@ CMake|cmake||\
 # Import all the language specific properties files
 import cmake
 import nncrontab
-lexer.*.slackbuilds=shell
