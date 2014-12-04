@@ -7,9 +7,10 @@
 # v3.23: (jw) version bump to 3.23
 # v3.24: (jw) version bump to 3.24
 # v3.41: (jw) version bump to 3.41
+# v3.52: (jw) version bump to 3.52 2014-12-04
 
 PRGNAM=scite
-VERSION=3.41
+VERSION=3.52
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
