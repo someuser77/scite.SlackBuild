@@ -11,7 +11,7 @@
 # v3.54: (jw) version bump to 3.54
 
 PRGNAM=scite
-VERSION=3.54
+VERSION=3.61
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
